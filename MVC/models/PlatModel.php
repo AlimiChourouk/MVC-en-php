@@ -6,5 +6,6 @@ function getAllPlats() {
     $sql = "SELECT * FROM plat";
     $stmt = $pdo->query($sql);
     return $stmt->fetchAll();
+  
 }
 ?>
