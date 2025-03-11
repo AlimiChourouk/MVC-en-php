@@ -13,3 +13,4 @@ try {
 } catch (PDOException $e) {
     die("ERROR: Could not connect. " . htmlspecialchars($e->getMessage()));
 }
+?>

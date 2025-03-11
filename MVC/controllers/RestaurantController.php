@@ -9,7 +9,4 @@ require_once(__DIR__ .'/../models/PlatModel.php');
             }
             require (__DIR__ .'/../views/restaurantsView.php'); 
         }
-       
-       
-       
     ?>
