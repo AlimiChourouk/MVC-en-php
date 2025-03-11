@@ -16,9 +16,12 @@
     <section id="section1">
         <img src="../img/burger.png" alt="image de burger">
     </section>
+    <?php foreach($platsParCuisine as $cuisin => $plats): ?>
+    <h2><?= htmlspecialchars($cuisin); ?></h2> 
+    <?php foreach ($plats as $plat): ?>
+        <p><?= htmlspecialchars($plat['nomPlat']); ?> - <?= htmlspecialchars($plat['prix']); ?>€</p>
+    <?php endforeach; ?>
+ <?php endforeach; ?>
 
-    <div>
-        <?= $restaurants ?>
-    </div>
 </body>
 </html>
