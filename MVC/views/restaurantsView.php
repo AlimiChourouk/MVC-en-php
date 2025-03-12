@@ -12,7 +12,7 @@
             <img class="imgPanier" src="../img/panierr.png" alt="panier">
         </a>
     </header>
-
+     
     <section id="section1">
         <img src="../img/burger.png" alt="image de burger">
     </section>

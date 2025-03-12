@@ -7,6 +7,7 @@ require_once(__DIR__ .'/../models/PlatModel.php');
             foreach ($plats as $plat) {
                 $platsParCuisine[$plat['TypeCuisine']][] = $plat;
             }
-            require (__DIR__ .'/../views/restaurantsView.php'); 
         }
+        require (__DIR__ .'/../views/restaurantsView.php'); 
+
     ?>
